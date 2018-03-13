@@ -19,9 +19,9 @@ if (!$comment) $errors[count($errors)] = 'Please enter your message.';
 //if the errors array is empty, send the mail
 if (!$errors) {
 
-	//recipient - replace your email here
-	$to = 'yoloyolokoko@gmail.com';	
-	//sender - from the form
+
+	$to = 'yoloyolokoko@gmail.com';
+
 	$from = $name . ' <' . $email . '>';
 
 	//subject and the html message
