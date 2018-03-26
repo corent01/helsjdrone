@@ -51,16 +51,14 @@ jQuery(document).ready(function ($) {
 
 		//start the ajax
 		$.ajax({
-			//this is the php file that processes the data and sends email
+
 			url: "contact.php",
 
-			//GET method is used
 			type: "GET",
 
 			//pass the data
 			data: data,
 
-			//Do not cache the page
 			cache: false,
 
 			//success
