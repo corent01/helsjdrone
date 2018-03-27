@@ -16,7 +16,7 @@ if (!$comment) $errors[count($errors)] = 'Please enter your message.';
 if (!$errors) {
 
 
-	$to = 'yoloyolokoko@gmail.com';
+	$to = 'waxprodlighting@gmail.com';
 
 	$from = $name . ' <' . $email . '>';
 
